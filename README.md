@@ -25,7 +25,7 @@ The biggest issue with the project currently is the low test coverage. This is m
 1. It seems that methods of classes that are wrapped inside withRouter could not be spied on. I have tried removing withRouter from the components, and methods could then be spied on correctly. A workaround is to pull out static methods out of the component class. However, some methods affect the state of the class and thus is hard to pull out. Of course, the state could be changed even by outside functions. My personal opinion is if the workaround requires more complex code and results in hard-to-read code, then it is not worth it. Thus, I have left these methods untested. If there is anyone who knows how to test component class methods wrapped inside a withRouter, I would really appreciate it if you could comment the proper way to test them. The problematic files include: *login.js*, *register.js".
 2. For some reason, I could not mock an input for input files. I have tried several solutions from Stackoverflow, but none of them seem to work. Etc. https://stackoverflow.com/questions/39702776/files-upload-testing-in-enzyme. This has led to my inability to test file inputs. The affected file is: *upload.js*.
 Point 1 in particular has left many methods untested. This is the main reason for the low test coverage.
-Optimizations
+### Optimizations
 - Cacheing images
 - Optimize/compress images
 - Lazy load posts
