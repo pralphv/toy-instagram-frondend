@@ -1,0 +1,17 @@
+.top-right{
+    position: absolute;
+    float: left;
+    right: 100px;
+    top: 30px;
+    overflow: inherit;
+    padding: 10px 15px;
+    background-color: rgb(70, 153, 179);
+    color: white;
+    border: 1px solid rgb(70, 153, 179);
+    background-color: 250ms;
+  }
+  
+  .top-right2{
+    right: 180px;
+  }
+  
