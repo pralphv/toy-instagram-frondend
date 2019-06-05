@@ -3,6 +3,7 @@ This repo is the frontend of the project Toy Instagram. The project is built wit
   
 Live Demo</a>
 
+![alt text](https://github.com/pralphv/toy-instagram-frondend/blob/master/ezgif.com-crop.gif)
 ## Getting Started
 Clone the repo
 Install dependencies. Yarn is recommended.
