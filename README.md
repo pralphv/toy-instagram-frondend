@@ -3,6 +3,8 @@ This repo is the frontend of the project Toy Instagram. The project is built wit
   
 Live Demo</a>  View only catered for desktop 
 
+Note: Since Heroku's filesystem is ephermeral, all of the image uploads will be wiped out when Heroku restarts. Only images that I have pushed will remain workable.
+
 ![alt text](https://github.com/pralphv/toy-instagram-frondend/blob/master/ezgif.com-crop.gif)
 ## Getting Started
 Clone the repo
